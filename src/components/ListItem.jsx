@@ -1,5 +1,5 @@
 const ListItem = ({ text, color }) => {
-    return <li className={`text-sm font-normal capitalize ${color}`}>{text}</li>
+    return <li className={`text-sm font-normal capitalize cursor-pointer ${color}`}>{text}</li>
 }
 
 export { ListItem }
